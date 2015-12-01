@@ -3,4 +3,6 @@ Class: CPSC 362
 
 Purpose: To allow instructors to create, modify, delete, and upload tests for their students to take.
 
-Notes: To create new project, type " django-admin.py startproject [PROJECTNAME]" in command prompt
+Notes:- Django tar file (for OSX) included in repo. Must have installed to use TestMaker:
+            $ python setup.py install
+      - To create new project, type " django-admin.py startproject [PROJECTNAME]" in command prompt

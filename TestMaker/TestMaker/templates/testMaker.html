@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for test in object_list %}
+<h3>{{ test.testTitle }}</h3>
+<div class="test_meta">
+    on {{ test.date }}
+</div>
+
+<div class = "test_body">
+    {{ test.body|safe|linebreaks }}
+</div>
+
+{% endfor %}
+{% endblock %}
